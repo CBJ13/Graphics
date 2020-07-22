@@ -71,7 +71,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Removed the ETC1_EXTERNAL_ALPHA variant from Shader Graph Sprite shaders.
 - Eliminated GC allocations caused by the 2D Renderer.
 - Removed the 8 renderer limit from URP Asset.
-- Use SystemInfo to check if multiview is supported instead of being platform hardcoded
+- Multiview support is now checked using system information from Unity instead of being hard-coded to specific platforms.
 
 ### Fixed
 - Fixed a performance problem with ShaderPreprocessor with large amount of active shader variants in the project 
